@@ -1,3 +1,5 @@
+#Exemplo que usar Groq com Llama3-70b
+
 from dotenv import load_dotenv
 import os
 from groq import Groq
@@ -5,7 +7,6 @@ from groq import Groq
 load_dotenv()
 
 # Create the Groq client
-#client = Groq(api_key=os.environ.get("GROQ_API_KEY"), )
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 # Set the system prompt

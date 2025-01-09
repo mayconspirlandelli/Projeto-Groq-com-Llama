@@ -1,4 +1,5 @@
 #Exemplo que usar Groq com Llama3-70b
+#fonte: https://replit.com/t/groqcloud/repls/Groq-Quickstart-Conversational-Chatbot/view#main.py
 
 from dotenv import load_dotenv
 import os
